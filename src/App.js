@@ -29,7 +29,7 @@ class App extends Component {
 
       <Header />
 
-        <Route exact path={'/'}component={Homepage}/>
+        <Route exact path={baseUrl + '/'}component={Homepage}/>
         <Route exact path='/Info'component={Info} />
         <Route exact path='/Barkart'component={Barkart} />
         <Route exact path='/nyheter'component={Nyheter} />
