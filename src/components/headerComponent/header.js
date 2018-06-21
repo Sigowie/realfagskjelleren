@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
 import{
-  link
+  NavLink
 } from 'react-router-dom';
 
 
@@ -15,21 +15,21 @@ class Header extends Component {
       </div>
 
       <div className="logo">
-        <a href="/">
+        <NavLink to= "/">
           <img src={logo} style={{width: null, height: 100}}  alt="logo"/>
-        </a>
+        </NavLink>
       </div>
 
       <nav>
         <ul>
           <li className="first">
-            <a href="/Nyheter">Nyheter</a>
+            <NavLink to="/Nyheter">Nyheter</NavLink>
           </li>
           <li>
-              <a href="/Barkart">Barkart</a>
+              <NavLink to="/Barkart">Barkart</NavLink>
           </li>
-          <li className="last">
-              <a href="/Info">Info</a>
+          <li classNam="last">
+              <NavLink to="/Info">Info</NavLink>
           </li>
 
         </ul>
