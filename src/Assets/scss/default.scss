@@ -1,6 +1,8 @@
 @import "_config.scss";
 
 
+
+
 header {
   position: relative;
   display:block;
@@ -60,43 +62,48 @@ header {
 body {
   vertical-align: middle;
   text-align: center;
+  margin-bottom: -300px;
+  min-height: 100%;
+  display: block;
 
   .container-fluid {
     .stuff {
-      background-color: $LightGrey;
-      position: relative;
-      margin: 0 0 20px 0;
+      background-color: #e6e6e6;
+      margin: 0 0 20px;
       float: left;
       display: block;
       margin-right: 30%;
       margin-left: 10%;
       width: 80%;
-      padding-bottom: 20;
+  }
       .events{
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 48.82117%;
+      }
       .news{
         margin-right: 0;
       }
-
+  }
+}
 
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background: $orange;
   color: $white;
-  height: 300px;
+  height: 400px;
   margin-bottom: 0;
-  margin-top: 100px;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  margin-top: -3em;
 
   .links{
     display: inline-block;
     position: absolute;
-    top: 30%; left: 15px;
+    top: 20%; left: 15px;
     @include translateY(-50%);
 
     ul li  {
@@ -109,11 +116,20 @@ footer {
 
   }
 
-  .map {
+  .mapBig {
     position: absolute;
     top: 50%; right: 20px;
     @include translateY(-50%);
     margin-right: 50px;
+  }
+
+  .mapSmall {
+    position: absolute;
+    top: 60%; right: 20px;
+    @include translateY(-50%);
+
+
+
   }
 
 

@@ -9,10 +9,11 @@ class Barkart extends Component {
       <h1>
       Realfagskjellerens barkart
       </h1>
-
+      <div className = "stuff">
       <p>
       todo
       </p>
+      </div>
       </div>
 
     );

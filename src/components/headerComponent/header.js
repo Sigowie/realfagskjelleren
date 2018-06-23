@@ -6,13 +6,14 @@ import{
   NavLink
 } from 'react-router-dom';
 
-
 class Header extends Component {
+
   render() {
     return (
       <header>
 
       <div className="countdown">
+
         Countdown
       </div>
 
@@ -28,7 +29,7 @@ class Header extends Component {
         )
       }
       </Media>
-        </NavLink>
+      </NavLink>
       </div>
 
       <nav>
@@ -43,8 +44,11 @@ class Header extends Component {
               <NavLink to="/Info">Info</NavLink>
           </li>
 
+
         </ul>
       </nav>
+
+
 
       </header>
 

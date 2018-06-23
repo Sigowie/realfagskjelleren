@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import outOfBeer from './HomerSimpson22.png';
 
 
 class Homepage extends Component {
@@ -16,7 +17,8 @@ class Homepage extends Component {
           Arrangementer
           </h2>
           <p>
-          Ingen Arrangementer lagt ut ennpå
+          Ingen Arrangementer lagt ut ennå
+          <img src={outOfBeer} style={{width: null, height: null}}  alt="Homey"/>
           </p>
           </div>
         <div className = "news">

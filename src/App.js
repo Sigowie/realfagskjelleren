@@ -26,13 +26,13 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-
-      <Header />
-
+        <Header />
+        <div className="main">
         <Route exact path={'/'}component={Homepage}/>
         <Route exact path='/Barkart'component={Barkart} />
         <Route exact path='/nyheter'component={Nyheter} />
         <Route exact path='/Info'component={Info} />
+        </div>
 
       <Footer />
       </div>

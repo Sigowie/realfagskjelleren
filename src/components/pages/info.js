@@ -9,10 +9,11 @@ class info extends Component {
       <h1>
         Realfagskjelleren
       </h1>
-
+      <div className = "stuff">
       <p>
       Realfagskjelleren er  linjeforeningskjelleren til Online, Volvox & Alkymisten, Delta og Spanskrøret.
       </p>
+      </div>
       </div>
 
     );

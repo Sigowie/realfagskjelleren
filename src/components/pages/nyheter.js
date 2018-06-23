@@ -9,10 +9,11 @@ class Nyheter extends Component {
       <h1>
       Her er nyhetsarkivet
       </h1>
-
+      <div className = "stuff">
       <p>
       todo
       </p>
+      </div>
       </div>
 
     );
