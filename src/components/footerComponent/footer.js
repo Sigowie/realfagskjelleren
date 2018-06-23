@@ -24,7 +24,7 @@ class Footer extends Component {
             </li>
             <li>
             <a href="https://twitter.com/realfagskjeller">
-            <img src={Twitter} style={{width: 30, height: 30}}  alt="Twit"/>
+            <img src={Twitter} style={{width: 30, height: 30}}  alt="twit"/>
             </a>
             </li>
 

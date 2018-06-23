@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  HashRouter,
+  BrowserRouter as Router,
   Route,
   Navlink
 } from 'react-router-dom';
@@ -24,19 +24,19 @@ const baseUrl = process.env.PUBLIC_URL;
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router>
       <div className="App">
 
       <Header />
 
-        <Route exact path={baseUrl + '/'}component={Homepage}/>
-        <Route exact path='/Info'component={Info} />
+        <Route exact path={'/'}component={Homepage}/>
         <Route exact path='/Barkart'component={Barkart} />
         <Route exact path='/nyheter'component={Nyheter} />
+        <Route exact path='/Info'component={Info} />
 
       <Footer />
       </div>
-      </HashRouter>
+      </Router>
 
     );
   }

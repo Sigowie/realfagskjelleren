@@ -7,12 +7,28 @@ class Homepage extends Component {
 
       <div className="container-fluid">
       <h1>
-      Velkommen til Realfagskjelleren sin hjemmeside
+      Velkommen til Realfagskjelleren
       </h1>
 
-      <p>
-      Realfagskjelleren er en linjeforeningskjeller
-      </p>
+      <div className = "stuff">
+        <div className = "events">
+          <h2>
+          Arrangementer
+          </h2>
+          <p>
+          Ingen Arrangementer lagt ut ennpå
+          </p>
+          </div>
+        <div className = "news">
+          <h2>
+          Nyheter
+          </h2>
+          <p>
+          Fortsatt intet nytt
+          </p>
+        </div>
+
+      </div>
       </div>
 
     );

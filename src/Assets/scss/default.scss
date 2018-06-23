@@ -1,5 +1,6 @@
 @import "_config.scss";
 
+
 header {
   position: relative;
   display:block;
@@ -53,6 +54,36 @@ header {
 
     }
   }
+
+}
+
+body {
+  vertical-align: middle;
+  text-align: center;
+
+  .container-fluid {
+    .stuff {
+      background-color: $LightGrey;
+      position: relative;
+      margin: 0 0 20px 0;
+      float: left;
+      display: block;
+      margin-right: 30%;
+      margin-left: 10%;
+      width: 80%;
+      padding-bottom: 20;
+      .events{
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+      .news{
+        margin-right: 0;
+      }
+
+  homePage {
+
+
 }
 
 footer {
@@ -64,7 +95,6 @@ footer {
   height: 300px;
   margin-bottom: 0;
   margin-top: 100px;
-  padding: 30px;
 
   .links{
     display: inline-block;
@@ -84,8 +114,9 @@ footer {
 
   .map {
     position: absolute;
-    top: 50%; left: 1100px;
+    top: 50%; right: 20px;
     @include translateY(-50%);
+    margin-right: 50px;
   }
 
 
