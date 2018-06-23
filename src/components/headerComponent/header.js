@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
+import mLogo from './mobileLogo.png';
+import Media from "react-media";
 import{
   NavLink
 } from 'react-router-dom';
@@ -14,9 +16,18 @@ class Header extends Component {
         Countdown
       </div>
 
+
       <div className="logo">
         <NavLink to= "/">
-          <img src={logo} style={{width: null, height: 100}}  alt="logo"/>
+        <Media query="(max-width: 900px)">
+        {matches =>
+            matches ? (
+          <img src={mLogo} style={{width: null, height: 100}}  alt="mLogo"/>
+        ) : (
+          <img src={logo} style={{width: null, height: 100}} alt="logo"/>
+        )
+      }
+      </Media>
         </NavLink>
       </div>
 
