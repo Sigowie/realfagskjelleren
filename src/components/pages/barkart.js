@@ -7,7 +7,7 @@ class Barkart extends Component {
 
       <div className="container-fluid">
       <h1>
-      Realfagskjellerens barkart
+      Barkart
       </h1>
       <div className = "stuff">
       <p>

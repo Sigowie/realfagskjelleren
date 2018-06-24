@@ -7,7 +7,7 @@ class Nyheter extends Component {
 
       <div className="container-fluid">
       <h1>
-      Her er nyhetsarkivet
+      Nyhetsarkiv
       </h1>
       <div className = "stuff">
       <p>

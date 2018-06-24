@@ -22,9 +22,6 @@ class SimpleMap extends Component {
 
 
           <AnyReactComponent
-          lat={63.4125500}
-          lng={10.4325055}
-          img_src = {Marker}
           />
 
         </GoogleMapReact>
