@@ -5,8 +5,15 @@ import Media from "react-media";
 import{
   NavLink
 } from 'react-router-dom';
+import { slide as Menu } from 'react-burger-menu'
+
+
+
+
 
 class Header extends Component {
+
+
 
   render() {
     return (
@@ -14,8 +21,18 @@ class Header extends Component {
 
       <div className="countdown">
 
-        Countdown
-      </div>
+      <Media query="(max-width: 600px)">
+      {matches =>
+          matches ? (
+            " "
+      ) : (
+        "Countdown"
+      )
+    }
+    </Media>
+
+    </div>
+
 
 
       <div className="logo">
@@ -32,25 +49,34 @@ class Header extends Component {
       </NavLink>
       </div>
 
-      <nav>
-        <ul>
-          <li className="first">
-            <NavLink to="/Nyheter">Nyheter</NavLink>
-          </li>
-          <li>
-              <NavLink to="/Barkart">Barkart</NavLink>
-          </li>
-          <li classNam="last">
-              <NavLink to="/Info">Info</NavLink>
-          </li>
+
+      <Media query="(max-width: 900px)">
+      {matches =>
+          matches ? (
+            <Menu right>
+              <a id="Nyheter" className="menu-item" href="/Nyheter">Nyheter</a>
+              <a id="Barkart" className="menu-item" href="/Barkart">Barkart</a>
+              <a id="Info" className="menu-item" href="/Info">Info</a>
+            </Menu>
+      ) : (
+        <nav>
+          <ul>
+            <li className="first">
+              <NavLink to="/Nyheter">Nyheter</NavLink>
+            </li>
+            <li>
+                <NavLink to="/Barkart">Barkart</NavLink>
+            </li>
+            <li classNam="last">
+                <NavLink to="/Info">Info</NavLink>
+            </li>
 
 
-        </ul>
-      </nav>
-
-
-
-
+            </ul>
+        </nav>
+      )
+    }
+    </Media>
 
 
 
@@ -60,5 +86,6 @@ class Header extends Component {
     );
   }
 }
+
 
 export default Header;
