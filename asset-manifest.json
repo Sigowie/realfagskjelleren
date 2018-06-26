@@ -1,14 +1,11 @@
 {
   "main.css": "static/css/main.62e64dfe.css",
   "main.css.map": "static/css/main.62e64dfe.css.map",
-  "main.js": "static/js/main.e4be0882.js",
-  "main.js.map": "static/js/main.e4be0882.js.map",
-  "static\\media\\HomerSimpson22.png": "static/media/HomerSimpson22.8981b742.png",
+  "main.js": "static/js/main.2eb47764.js",
+  "main.js.map": "static/js/main.2eb47764.js.map",
   "static\\media\\facebook.svg": "static/media/facebook.4ca9f712.svg",
   "static\\media\\instagram.svg": "static/media/instagram.6222e0db.svg",
-  "static\\media\\kult.png": "static/media/kult.c2226aab.png",
   "static\\media\\logo.png": "static/media/logo.ecd25c2c.png",
   "static\\media\\mobileLogo.png": "static/media/mobileLogo.4127e6a7.png",
-  "static\\media\\twitter.svg": "static/media/twitter.eeee7e80.svg",
-  "static\\media\\waiting.png": "static/media/waiting.581d2b8a.png"
+  "static\\media\\twitter.svg": "static/media/twitter.eeee7e80.svg"
 }
