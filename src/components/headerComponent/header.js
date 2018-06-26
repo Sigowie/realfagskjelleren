@@ -54,6 +54,7 @@ class Header extends Component {
       {matches =>
           matches ? (
             <Menu right>
+
               <a id="Nyheter" className="menu-item" href="/Nyheter">Nyheter</a>
               <a id="Barkart" className="menu-item" href="/Barkart">Barkart</a>
               <a id="Info" className="menu-item" href="/Info">Info</a>
