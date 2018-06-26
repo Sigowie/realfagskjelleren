@@ -21,7 +21,7 @@ class Header extends Component {
 
       <div className="countdown">
 
-      <Media query="(max-width: 600px)">
+      <Media query="(max-width: 900px)">
       {matches =>
           matches ? (
             " "
